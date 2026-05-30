@@ -629,6 +629,30 @@
     [
       "ff86cc37-b2ce-4eb3-81a5-8999917fac6e",
       "Root"
+    ],
+    [
+      "009a7362-174d-4dc2-a222-2ca42a2bc466",
+      "MCU"
+    ],
+    [
+      "44031d8d-b188-4c80-b393-738ad3a02221",
+      "USB-UART"
+    ],
+    [
+      "7141f16b-5753-43e7-8e00-e33c5b814e0b",
+      "USB"
+    ],
+    [
+      "6fd96b95-9ddd-4707-9822-7ceca39456b2",
+      "CAN"
+    ],
+    [
+      "0b39ba36-551d-4904-ac92-f0ca0491d6db",
+      "Power"
+    ],
+    [
+      "d8d3e8b0-7a3d-4c5c-9530-d548a914fe39",
+      "Stepper Driver"
     ]
   ],
   "text_variables": {}
