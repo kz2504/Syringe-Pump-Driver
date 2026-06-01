@@ -1480,7 +1480,7 @@
 		)
 		(uuid "cac24a33-d9ef-43fa-a92c-d41f552853d2")
 	)
-	(label "USART1_TX"
+	(label "RX"
 		(at 179.07 90.17 180)
 		(effects
 			(font
@@ -1490,7 +1490,7 @@
 		)
 		(uuid "d9cce682-ca57-43fc-9d11-cdffadd547ba")
 	)
-	(label "USART1_RX"
+	(label "TX"
 		(at 179.07 87.63 180)
 		(effects
 			(font
@@ -1500,7 +1500,7 @@
 		)
 		(uuid "ee77ef3e-b5b8-4f73-9e3b-77ac38a76a15")
 	)
-	(hierarchical_label "USART1_TX"
+	(hierarchical_label "RX"
 		(shape input)
 		(at 179.07 90.17 0)
 		(effects
@@ -1533,7 +1533,7 @@
 		)
 		(uuid "c28bab9a-d83e-4b80-877a-805915387e96")
 	)
-	(hierarchical_label "USART1_RX"
+	(hierarchical_label "TX"
 		(shape output)
 		(at 179.07 87.63 0)
 		(effects

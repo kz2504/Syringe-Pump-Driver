@@ -2472,6 +2472,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 102.87) (xy 179.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221c5cc0-d12c-48d1-88b5-d9f04f22f555")
+	)
+	(wire
+		(pts
 			(xy 207.01 58.42) (xy 207.01 60.96)
 		)
 		(stroke
@@ -2569,6 +2579,16 @@
 			(type default)
 		)
 		(uuid "4d6a4579-ab1e-4e2e-9483-0c6ff62cbefa")
+	)
+	(wire
+		(pts
+			(xy 167.64 100.33) (xy 179.07 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db5e68b-f32b-4e1a-a7f2-27b6c403f461")
 	)
 	(wire
 		(pts
@@ -2779,6 +2799,16 @@
 			(type default)
 		)
 		(uuid "8f6ebad5-2022-40f2-a4b9-ae4b4dcd79f8")
+	)
+	(wire
+		(pts
+			(xy 167.64 95.25) (xy 179.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99465752-ccc0-4d06-8ec4-541f9e525dc4")
 	)
 	(wire
 		(pts
@@ -3042,6 +3072,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 97.79) (xy 179.07 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f008b6c2-8c9b-46be-8aab-c6ee9017d050")
+	)
+	(wire
+		(pts
 			(xy 116.84 83.82) (xy 116.84 82.55)
 		)
 		(stroke
@@ -3140,6 +3180,16 @@
 		)
 		(uuid "679ea080-b409-455c-8884-e6805216202e")
 	)
+	(label "CAN_ID_1"
+		(at 179.07 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "900bbc74-1cd4-4595-95dd-6b47b4956c0c")
+	)
 	(label "NRST"
 		(at 137.16 82.55 0)
 		(effects
@@ -3150,6 +3200,16 @@
 		)
 		(uuid "9500f66f-d368-40a9-99ab-0272688b8cb6")
 	)
+	(label "CAN_ID_0"
+		(at 179.07 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bf34705a-2039-4297-a4ea-ea4c0b98b932")
+	)
 	(label "SWCLK"
 		(at 179.07 118.11 180)
 		(effects
@@ -3159,6 +3219,16 @@
 			(justify right bottom)
 		)
 		(uuid "bfc13db0-5d78-4c33-abda-d0a9f2dc670b")
+	)
+	(label "CAN_ID_2"
+		(at 179.07 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce734cae-736a-4c19-b218-08aab839e705")
 	)
 	(label "FDCAN1_TX"
 		(at 179.07 113.03 180)
@@ -3189,6 +3259,60 @@
 			(justify right bottom)
 		)
 		(uuid "f4019088-b376-4e46-b8af-f7a523b412c3")
+	)
+	(label "CAN_ID_3"
+		(at 179.07 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fdcdd6b5-4739-42f8-b52e-51d633cf55e7")
+	)
+	(hierarchical_label "CAN_ID_2"
+		(shape input)
+		(at 179.07 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "000c8e09-630e-4960-8f88-08e5f2432846")
+	)
+	(hierarchical_label "CAN_ID_3"
+		(shape input)
+		(at 179.07 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1083d486-0fff-4fbe-a187-3e1523cb5aad")
+	)
+	(hierarchical_label "CAN_ID_0"
+		(shape input)
+		(at 179.07 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5468b5e7-a745-44b8-8576-8eddab7f6a3d")
+	)
+	(hierarchical_label "CAN_ID_1"
+		(shape input)
+		(at 179.07 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a690b5b-bdf6-4936-aae2-70c1f74eac54")
 	)
 	(hierarchical_label "FDCAN1_TX"
 		(shape input)

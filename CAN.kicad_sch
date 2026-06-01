@@ -1928,7 +1928,7 @@
 		)
 		(uuid "61082ce5-ade3-4b98-93a6-d9005d0c8245")
 	)
-	(label "FDCAN1_RX"
+	(label "RX"
 		(at 129.54 107.95 0)
 		(effects
 			(font
@@ -1958,7 +1958,7 @@
 		)
 		(uuid "b1ae652a-c89b-44a5-bed4-692f267c56b3")
 	)
-	(label "FDCAN1_TX"
+	(label "TX"
 		(at 129.54 105.41 0)
 		(effects
 			(font
@@ -1988,7 +1988,7 @@
 		)
 		(uuid "f4a4b6eb-30e0-4adf-bc05-4b39f7209c65")
 	)
-	(hierarchical_label "FDCAN1_RX"
+	(hierarchical_label "RX"
 		(shape input)
 		(at 129.54 107.95 180)
 		(effects
@@ -2010,7 +2010,7 @@
 		)
 		(uuid "52914f44-d1a0-488e-89f5-75f41f0fa62c")
 	)
-	(hierarchical_label "FDCAN1_TX"
+	(hierarchical_label "TX"
 		(shape output)
 		(at 129.54 105.41 180)
 		(effects

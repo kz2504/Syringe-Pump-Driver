@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 175.26 81.28) (xy 181.61 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213e15a5-7fa8-47eb-b201-61b9876240c7")
+	)
+	(wire
+		(pts
 			(xy 92.71 69.85) (xy 105.41 69.85)
 		)
 		(stroke
@@ -14,6 +24,36 @@
 			(type default)
 		)
 		(uuid "31d72090-a6e6-466b-8bd5-9107bd0d110b")
+	)
+	(wire
+		(pts
+			(xy 175.26 76.2) (xy 181.61 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3494d90d-290f-4bb7-b131-733c24e6a16c")
+	)
+	(wire
+		(pts
+			(xy 175.26 78.74) (xy 181.61 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fdd06f3-1ef7-4901-9740-aaa9ee272f73")
+	)
+	(wire
+		(pts
+			(xy 175.26 73.66) (xy 181.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45612884-2311-4dd4-9c58-eb55e235cc88")
 	)
 	(wire
 		(pts
@@ -137,6 +177,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "CAN_ID_0" input
+			(at 175.26 73.66 0)
+			(uuid "16a5adae-e8c4-4db6-8f70-ad083e8d5193")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_ID_1" input
+			(at 175.26 76.2 0)
+			(uuid "6ccd4ba3-9e82-4750-81c2-a33536a8c3fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_ID_2" input
+			(at 175.26 78.74 0)
+			(uuid "20809b73-1ca2-4ab2-af66-e84375d9e105")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_ID_3" input
+			(at 175.26 81.28 0)
+			(uuid "4f1562f5-30a3-487f-90a2-520df2c4a957")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -263,7 +343,7 @@
 				(justify left)
 			)
 		)
-		(pin "USART1_RX" output
+		(pin "RX" input
 			(at 124.46 67.31 0)
 			(uuid "7192a1e4-3c2e-436d-9c0f-0dfe58b30ac9")
 			(effects
@@ -273,7 +353,7 @@
 				(justify right)
 			)
 		)
-		(pin "USART1_TX" input
+		(pin "TX" output
 			(at 124.46 69.85 0)
 			(uuid "f7fb8433-afba-412d-8a49-70577b30d22f")
 			(effects
@@ -345,7 +425,7 @@
 				(justify right)
 			)
 		)
-		(pin "FDCAN1_RX" input
+		(pin "RX" input
 			(at 181.61 67.31 180)
 			(uuid "cb0f1a26-6e47-4fbb-81bf-499b15a9cab7")
 			(effects
@@ -355,7 +435,7 @@
 				(justify left)
 			)
 		)
-		(pin "FDCAN1_TX" output
+		(pin "TX" output
 			(at 181.61 69.85 180)
 			(uuid "5fd43da4-8575-4c72-9874-e93cd94cd8b4")
 			(effects
@@ -507,6 +587,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 181.61 97.79 180)
+			(uuid "807e3c9f-0947-415f-8ac0-f6c3f8d09673")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX" input
+			(at 181.61 104.14 180)
+			(uuid "ee27d5e6-3bc7-4f64-96b2-7c1cbe281bc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STEP" input
+			(at 181.61 100.33 180)
+			(uuid "07aa0975-63f7-4242-b22e-7cc0a25b6cad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX" output
+			(at 181.61 106.68 180)
+			(uuid "1909d53e-857e-452b-a993-26328b8e7644")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
